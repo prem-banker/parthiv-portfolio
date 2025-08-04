@@ -1,0 +1,233 @@
+{
+  "user": {
+    "name": "Prem Banker",
+    "email": "bankerprem3@gmail.com",
+    "resume_url": "https://www.prembanker.com/resume/resume.pdf",
+    "logo_text": "prem-banker",
+    "user_preferred_titles": [
+      "Full Stack Dev",
+      "Problem Solver",
+      "Tech Nerd"
+    ],
+    "bio": "ABOUT ME\n\nPrem Banker, 24\nWashington DC, USA\n\nI am a problem solver who is interested in solving everything tech. My main background and projects are in Software Development and Artificial Intelligence, which I had the pleasure of working on during my studies and at my work. I love to work in teams and make meaningful contributions with like-minded people.\n\nWhen I'm not coding, you'll find me playing soccer (which should definitely be called football) or watching YouTube.\n\nFeel free to drop me a message if you want to chat about tech, football, or the best YouTube rabbit holes—I'm always up for a good conversation!",
+    "education": [
+      {
+        "title": "Masters",
+        "school": "Virginia Tech",
+        "degree": "Masters in Computer Science",
+        "description": "Masters\nMasters in Computer Science, Virginia Tech\nWashington DC, USA\nAug 2023 - May 2025\n\nCoursework: Information Visualization, Artificial Intelligence, Modelling and Evaluation, Machine Learning, Web Tech, Cloud Computing, Software Engineering, ML in Big Data",
+        "place": "Wahsington DC"
+      },
+      {
+        "title": "Bachelors",
+        "school": "PDEU",
+        "degree": "BTech in Computer Science",
+        "description": "Bachelors\nBachelors in CS, PDEU\nAhmedabad, India\nJuly 2017 - May 2021\n\nCoursework: Web Development, Software Engineering, Information Security, Computer Networks, Database Management, Data Structures and Algorithms, Distributed Systems, Optimization Techniques, Machine Learning, Natural Language Processing, Data Warehousing and Data Mining",
+        "place": "Wahsington DC"
+      }
+    ],
+    "work": [
+      {
+        "title": "Software Engineer",
+        "company": "Obviant",
+        "start": "Dec 24",
+        "end": "Present",
+        "description": "Obviant\nSoftware Engineer\nArlington, Virginia, USA\nDec 2024 - Present\n\nTech Stack: React, Next.js, Node.js, TypeScript, AWS, Python, Terraform, Pinecone VectorDB, Elasticsearch, Redis, Cohere\n\nSpearheaded full-stack development at a Defense startup, contributing to defense intelligence using web and NLP solutions as a Founding Engineer.\n\nBuilt a Retrieval-Augmented Generation (RAG) recommender system that delivers personalized Department of Defense insights based on user feedback and relationships.\n\nImplemented Role-Based Access Control (RBAC) for file-sharing features, enabling granular, Google Drive-like permissions across projects.\n\nEnhanced semantic search by optimizing Pinecone and Elasticsearch, reducing response time by 500ms.",
+        "place": "Arlington Virginia"
+      },
+      {
+        "title": "Full Stack Dev",
+        "company": "Quicko",
+        "start": "May 21",
+        "end": "Jun 23",
+        "description": "Quicko\nFull Stack Developer\nAhmedabad, India\nMay 2021 - June 2023\n\nTech Stack: Java SpringBoot, Node.js, Angular, Flutter, DynamoDb, Oracle SQL, AWS, GCP, Docker, Jenkins, Git\n\nLed development of India's top online tax advisory platform, automating scheduling, payments, and order lifecycle with Flutter, Node.js, and AWS, boosting revenue by 80%.\n\nOptimized scheduling using AWS CloudFront and EventBridge, cutting API response time from 4s to 200ms.\n\nDeveloped a PWA for income tax filing, integrated with major Indian brokerage apps, onboarding 500,000+ users in 2022.\n\nDeveloped Clique, Quicko's affiliate app with Angular and Java SpringBoot, reaching 800,000 sign-ups through 100+ affiliates.\n\nStreamlined email marketing with Listmonk and AWS Lambda, analyzing AWS SES open events and saving $800 monthly by eliminating subscription fees.\n\nImplemented AWS Lambda middleware in Java and Node.js, reducing cold start time from 3-4s to <50ms.\n\nEstablished data retrieval patterns for DynamoDB, optimizing querying and pagination for better cost and access efficiency.",
+        "place": "Ahmedabad India"
+      },
+      {
+        "title": "Application Dev Intern",
+        "company": "Evosys",
+        "start": "Jan 21",
+        "end": "April 21",
+        "description": "Evosys\nApplication Development Intern\nAhmedabad, India\nJan 2021 - May 2021\n\nTech Stack: Javascript, PL-SQL, MySQL, Java, Oracle Cloud Infrastructure\n\nDeveloped Step-Function-like workflows using Oracle Integrations Cloud and PL-SQL procedures, establishing a data tunnel between Oracle Fusion Applications.\n\nImplemented an Oracle Integration Cloud Service (OICS) workflow to automate file transfer, processing, and delivery via SFTP, improving efficiency and reducing manual intervention.",
+        "place": "Ahmedabad India"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Pro-folio",
+        "description": "Portfolio for pros. This is a portfolio website for software developers. The code is open sourced, enabling anyone to make quick meta data changes and load up their own portfolio website.",
+        "image": "/projects/project_images/profolio.png",
+        "techstack": [
+          "react",
+          "next",
+          "tailwind",
+          "html",
+          "css"
+        ],
+        "github": "https://github.com/prem-banker/pro-folio",
+        "url": "https://github.com/prem-banker/pro-folio"
+      },
+      {
+        "name": "CarbonKarma",
+        "description": "CarbonKarma is a decentralized finance (DeFi) application built on the Ripple XRPL blockchain that rewards users with our cryptocurrency called CRBT (CarbonReward Token) for choosing sustainable modes of transportation. The platform leverages Google's travel data and the Carbon Interface API to calculate the carbon emissions associated with different travel options and then converts the emission amount into the CRBT tokens.",
+        "image": "/projects/project_images/carbonkarma.png",
+        "techstack": [
+          "react",
+          "javascript",
+          "vercel",
+          "node.js",
+          "mongodb",
+          "solidity"
+        ],
+        "github": "https://github.com/kshitij101/carbonkarma",
+        "url": "https://devpost.com/software/carbonkarma-n79k3h"
+      },
+      {
+        "name": "Marubot",
+        "description": "MaruBot is an intelligent chatbot for Discord and a web extension, utilizing advanced AI to provide context-aware, personalized responses. It retrieves information from chat history and documents using a Retrieval-Augmented Generation (RAG) model, enhancing search efficiency and automating tasks with robust privacy protections.",
+        "image": "/projects/project_images/marubot.jpg",
+        "techstack": [
+          "python",
+          "gemini",
+          "llm",
+          "VectorDB",
+          "react"
+        ],
+        "github": "",
+        "url": "https://devpost.com/software/marubot"
+      },
+      {
+        "name": "Meet - Quicko",
+        "description": "MEET is an online tax advisory platform where customers can come and book meetings with Tax experts to solve their income tax related problems. This was developed during my time at Quicko using Flutter, node.js and aws.",
+        "image": "/projects/project_images/meet.png",
+        "techstack": [
+          "flutter",
+          "AWS",
+          "node.js",
+          "typescript",
+          "javascript"
+        ],
+        "github": "",
+        "url": "https://quicko.com/income-tax/meet"
+      },
+      {
+        "name": "Tax filing on Mobile - Quicko",
+        "description": "This is a mobile webapp for filing and paying income taxes in India. This was built by me while at Quicko using Flutter on the frontend and node.js and Java on the backend",
+        "image": "/projects/project_images/tax.png",
+        "techstack": [
+          "Node.js",
+          "flutter",
+          "AWS",
+          "Java",
+          "DynamoDb"
+        ],
+        "github": "",
+        "url": "https://quicko.com/income-tax"
+      },
+      {
+        "name": "Clique - Quicko",
+        "description": "Clique is the affiliate program for Quicko where users can manage their conversions, transactions and settlement reports of the people they have referred",
+        "image": "/projects/project_images/clique.png",
+        "techstack": [
+          "Angular",
+          "HTML",
+          "javascript",
+          "java"
+        ],
+        "github": "",
+        "url": "https://clique.quicko.com/"
+      },
+      {
+        "name": "Kahaniyan",
+        "description": "Kahaniyan is an online bookstore which was made as a recurrent project exercise in CS5244 Web Technologies at VT. The bookstore was designed using Figma and coded out in React and Java",
+        "image": "/projects/project_images/kahaniyan.png",
+        "techstack": [
+          "React",
+          "Java",
+          "MySQL"
+        ],
+        "github": "https://github.com/prem-banker/bookstore",
+        "url": "https://github.com/prem-banker/bookstore"
+      },
+      {
+        "name": "Soccer Events Analytics",
+        "description": "This project analyzes soccer game events like goals, assists, shots, blocks, and clearances. Based on this data, it provides various insights into players, their playstyles, and team strategies. The analysis helps determine key patterns and trends in player and team performance.",
+        "image": "/projects/project_images/soccer.png",
+        "techstack": [
+          "python"
+        ],
+        "github": "https://github.com/prem-banker/football-visualization",
+        "url": "https://github.com/prem-banker/football-visualization"
+      },
+      {
+        "name": "Voice-Guided Identity Verification",
+        "description": "This project develops a cost-effective voice recognition solution for identity verification, targeting virtual settings like online education and meetings. It uses audio data converted into log mel spectrograms and classifies them with a Convolutional Neural Network (CNN) for reliable and secure identification and attendance tracking.",
+        "image": "/projects/project_images/voice.webp",
+        "techstack": [
+          "python"
+        ],
+        "github": "https://github.com/prem-banker",
+        "url": "https://github.com/prem-banker"
+      },
+      {
+        "name": "Instagram Bot Comment detector",
+        "description": "This Instagram bot comment remover identifies and reports bot comments, hiding them from the user's view to clean up the comments section. It uses a machine learning model and Selenium automator to scan and analyze comments. The ML classifier is trained on thousands of labeled data points using NLP techniques.",
+        "image": "/projects/project_images/instagram.png",
+        "techstack": [
+          "python"
+        ],
+        "github": "https://github.com/prem-banker",
+        "url": "https://github.com/prem-banker"
+      },
+      {
+        "name": "Visual Occupancy Detection System",
+        "description": "VODS for smart parking lot management differentiates between empty and occupied parking spaces. Utilizing a CNN model trained on over 120k images, it identifies available spots for drivers. As traffic congestion increases, this low-cost system offers significant benefits in time savings and pollution reduction.",
+        "image": "/projects/project_images/vods.webp",
+        "techstack": [
+          "python"
+        ],
+        "github": "https://github.com/prem-banker",
+        "url": "https://github.com/prem-banker"
+      },
+      {
+        "name": "Balley",
+        "description": "Balley is a 2D hypercasual infinite-runner type game made using Unity. The goal is to stay alive for as long as possible, gain points by bouncing off the raised platforms and to collect coins and power-ups while you're at it. The game gets progressively difficult as the points increase & also features an in-game store from where players can buy skins and powerups.",
+        "image": "/projects/project_images/balley.webp",
+        "techstack": [
+          "C",
+          "C#",
+          "Unity"
+        ],
+        "github": "",
+        "url": "https://play.google.com/store/apps/details?id=com.Teknack.Balley"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Github",
+        "link": "https://github.com/prem-banker",
+        "type": "Profile"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/BankerPrem",
+        "type": "Profile"
+      },
+      {
+        "name": "Dev Post",
+        "link": "https://devpost.com/premb488",
+        "type": "Profile"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/prem-banker-27094518b/",
+        "type": "Profile"
+      },
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/prem-banker",
+        "type": "Profile"
+      }
+    ]
+  }
+}
