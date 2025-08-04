@@ -1,29 +1,29 @@
 {
   "user": {
-    "name": "Prem Banker",
-    "email": "bankerprem3@gmail.com",
-    "resume_url": "https://www.prembanker.com/resume/resume.pdf",
-    "logo_text": "prem-banker",
+    "name": "Parthiv Gandhi",
+    "email": "parthivgandhi1499@gmail.com",
+    "resume_url": "https://www.parthivgandhi.com/resume/resume.pdf",
+    "logo_text": "parthiv-gandhi",
     "user_preferred_titles": [
-      "Full Stack Dev",
-      "Problem Solver",
-      "Tech Nerd"
+      "Data Scientist",
+      "Cloud Engineer",
+      "Software Engineer"
     ],
-    "bio": "ABOUT ME\n\nPrem Banker, 24\nWashington DC, USA\n\nI am a problem solver who is interested in solving everything tech. My main background and projects are in Software Development and Artificial Intelligence, which I had the pleasure of working on during my studies and at my work. I love to work in teams and make meaningful contributions with like-minded people.\n\nWhen I'm not coding, you'll find me playing soccer (which should definitely be called football) or watching YouTube.\n\nFeel free to drop me a message if you want to chat about tech, football, or the best YouTube rabbit holes—I'm always up for a good conversation!",
+    "bio": "ABOUT ME\n\nParthiv Gandhi, 26\nWashington DC, USA\n\nI have a knee eye for analytical  skills to help see through data and numbers. Love to fill the gap between tech and business needs – a car enthusiasts and tech nerd.\n\nFeel free to drop me a message if you want to chat about tech, football, or the best YouTube rabbit holes—I'm always up for a good conversation!",
     "education": [
       {
         "title": "Masters",
-        "school": "Virginia Tech",
-        "degree": "Masters in Computer Science",
-        "description": "Masters\nMasters in Computer Science, Virginia Tech\nWashington DC, USA\nAug 2023 - May 2025\n\nCoursework: Information Visualization, Artificial Intelligence, Modelling and Evaluation, Machine Learning, Web Tech, Cloud Computing, Software Engineering, ML in Big Data",
-        "place": "Wahsington DC"
+        "school": "University of Maryland, Baltimore County",
+        "degree": "Master of Science in Information Systems",
+        "description": "Masters\n Masters in Information Systems, University of Maryland, Baltimore County\nBaltimore, USA\nAug 2022 - Dec 2024\n\nCoursework : Supervised Machine Learning and Deep Learning, Unsupervised Machine Learning and Data Mining, Natural Language Processing, Reinforcement Learning and Computer Vision, Introduction to Linear Algebra, Probability and Statistics.",
+        "place": "Baltimore, USA"
       },
       {
         "title": "Bachelors",
         "school": "PDEU",
-        "degree": "BTech in Computer Science",
-        "description": "Bachelors\nBachelors in CS, PDEU\nAhmedabad, India\nJuly 2017 - May 2021\n\nCoursework: Web Development, Software Engineering, Information Security, Computer Networks, Database Management, Data Structures and Algorithms, Distributed Systems, Optimization Techniques, Machine Learning, Natural Language Processing, Data Warehousing and Data Mining",
-        "place": "Wahsington DC"
+        "degree": "BTech in Information Communication Technologies",
+        "description": "Bachelors\nBachelors in Information Communication Technologies, PDEU\nAhmedabad, India\nJuly 2017 - May 2021\n\nCoursework : Artificial Intelligence, Big Data Analytics and Distributed Computing, Data Warehousing, Evaluation and Optimization, Object Oriented Programming and Modelling, Database Management System, Data Structures and Algorithms.",
+        "place": "Ahmedabad, India"
       }
     ],
     "work": [
