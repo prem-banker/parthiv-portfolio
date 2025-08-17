@@ -29,12 +29,12 @@ export default function HomeWeb() {
             <span className="text-secondaryBrightPurple">const</span>{" "}
             <span className="text-accentBrightGreen"> codeLink</span> ={" "}
             <a
-              href="https://github.com/parthivgandhi/parthiv-portfolio"
+              href="https://github.com/prem-banker/parthiv-portfolio"
               className="text-accentOrange hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://github.com/parthivgandhi1499/parthiv-portfolio
+              https://github.com/prem-banker/parthiv-portfolio
             </a>
           </div>
         </div>

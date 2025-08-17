@@ -114,27 +114,12 @@
     "socials": [
       {
         "name": "Github",
-        "link": "https://github.com/prem-banker",
-        "type": "Profile"
-      },
-      {
-        "name": "Twitter",
-        "link": "https://twitter.com/BankerPrem",
-        "type": "Profile"
-      },
-      {
-        "name": "Dev Post",
-        "link": "https://devpost.com/premb488",
+        "link": "https://github.com/parthiv1499",
         "type": "Profile"
       },
       {
         "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/prem-banker-27094518b/",
-        "type": "Profile"
-      },
-      {
-        "name": "Instagram",
-        "link": "https://www.instagram.com/prem-banker",
+        "link": "https://www.linkedin.com/in/parthivgandhi/",
         "type": "Profile"
       }
     ]

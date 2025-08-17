@@ -58,12 +58,6 @@ const Footer: React.FC = () => {
         )}
       </div>
 
-      <div className="flex-center-items">
-        <span>
-          Made with <span className="text-red">♥</span> by Prem
-        </span>
-      </div>
-
       {githubLink && (
         <div className="flex-center-items">
           <a href={githubLink} target="_blank" className="group h-full">
