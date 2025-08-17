@@ -18,7 +18,7 @@ export default function HomeWeb() {
             <AnimatedText />
           </h4>
           <div className="text-secondaryLightBlue font-labels">
-            &#47;&#47; A Developer&apos;s Portfolio by Prem Banker
+            &#47;&#47; A Developer&apos;s Portfolio by Parthiv Gandhi
           </div>
           <div className="text-secondaryLightBlue font-labels">
             &#47;&#47; You can see the code for this site here
@@ -29,12 +29,12 @@ export default function HomeWeb() {
             <span className="text-secondaryBrightPurple">const</span>{" "}
             <span className="text-accentBrightGreen"> codeLink</span> ={" "}
             <a
-              href="https://github.com/prem-banker/pro-folio"
+              href="https://github.com/parthivgandhi/parthiv-portfolio"
               className="text-accentOrange hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://github.com/prem-banker/pro-folio
+              https://github.com/parthivgandhi1499/parthiv-portfolio
             </a>
           </div>
         </div>
