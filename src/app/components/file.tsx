@@ -5,7 +5,7 @@ import { FaFile } from "react-icons/fa";
 import { FileProps } from "../utils/interfaces";
 
 const CustomFile: React.FC<FileProps> = ({ text, onTap }) => {
-  const isOpen = usePathname().includes(text);
+  const isOpen = decodeURIComponent(usePathname()).includes(text);
 
   return (
     <div
