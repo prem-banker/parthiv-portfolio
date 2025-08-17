@@ -1,3 +1,3 @@
 # parthiv-portfolio
 
-This is parthiv's portfolio website
+This is Parthiv's portfolio website
