@@ -1,14 +1,19 @@
 {
   "technologies": [
+    "python",
+    "opencv",
+    "keras",
+    "tensorflow",
+    "jupyter",
+    "pandas",
+    "postgresql",
+    "tableau",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
     "java",
     "javascript",
-    "python",
-    "C",
     "typescript",
-    "go",
-    "flutter",
-    "docker",
-    "react",
-    "angular"
+    "C"
   ]
 }

@@ -8,7 +8,18 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { FaC, FaComputer, FaGolang } from "react-icons/fa6";
-import { SiFlutter } from "react-icons/si";
+import {
+  SiFlutter,
+  SiOpencv,
+  SiKeras,
+  SiTensorflow,
+  SiJupyter,
+  SiPandas,
+  SiPostgresql,
+  SiTableau,
+  SiNumpy,
+  SiScikitlearn,
+} from "react-icons/si";
 
 interface TechIconProps {
   tech: string;
@@ -35,6 +46,16 @@ const TechIcon: React.FC<TechIconProps> = ({ tech, size = 20 }) => {
     golang: "#00ADD8",
     go: "#00ADD8",
     c: "#A8B9CC",
+    opencv: "#5C3EE8",
+    keras: "#D00000",
+    tensorflow: "#FF6F00",
+    jupyter: "#F37626",
+    pandas: "#4B4EE8",
+    postgresql: "#336791",
+    tableau: "#E97627",
+    numpy: "#013243",
+    "scikit-learn": "#F7931E",
+    matplotlib: "#11557C",
     default: "#6A737D", // Default grey color
   };
 
@@ -72,6 +93,24 @@ const TechIcon: React.FC<TechIconProps> = ({ tech, size = 20 }) => {
     return <FaGolang color={iconColor} size={iconSize} />;
   } else if (lowerCaseTechName === "c") {
     return <FaC color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("opencv")) {
+    return <SiOpencv color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("keras")) {
+    return <SiKeras color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("tensorflow")) {
+    return <SiTensorflow color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("jupyter")) {
+    return <SiJupyter color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("pandas")) {
+    return <SiPandas color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("postgresql")) {
+    return <SiPostgresql color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("tableau")) {
+    return <SiTableau color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("numpy")) {
+    return <SiNumpy color={iconColor} size={iconSize} />;
+  } else if (lowerCaseTechName.includes("scikit-learn")) {
+    return <SiScikitlearn color={iconColor} size={iconSize} />;
   } else {
     // Return a generic icon for unknown technologies
     return <FaComputer color={iconColor} size={iconSize} />;

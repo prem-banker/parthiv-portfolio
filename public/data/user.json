@@ -46,100 +46,49 @@
     ],
     "projects": [
       {
-        "name": "Pro-folio",
-        "description": "Portfolio for pros. This is a portfolio website for software developers. The code is open sourced, enabling anyone to make quick meta data changes and load up their own portfolio website.",
-        "image": "/projects/project_images/profolio.png",
-        "techstack": [
-          "react",
-          "next",
-          "tailwind",
-          "html",
-          "css"
-        ],
-        "github": "https://github.com/prem-banker/pro-folio",
-        "url": "https://github.com/prem-banker/pro-folio"
-      },
-      {
-        "name": "CarbonKarma",
-        "description": "CarbonKarma is a decentralized finance (DeFi) application built on the Ripple XRPL blockchain that rewards users with our cryptocurrency called CRBT (CarbonReward Token) for choosing sustainable modes of transportation. The platform leverages Google's travel data and the Carbon Interface API to calculate the carbon emissions associated with different travel options and then converts the emission amount into the CRBT tokens.",
-        "image": "/projects/project_images/carbonkarma.png",
-        "techstack": [
-          "react",
-          "javascript",
-          "vercel",
-          "node.js",
-          "mongodb",
-          "solidity"
-        ],
-        "github": "https://github.com/kshitij101/carbonkarma",
-        "url": "https://devpost.com/software/carbonkarma-n79k3h"
-      },
-      {
-        "name": "Marubot",
-        "description": "MaruBot is an intelligent chatbot for Discord and a web extension, utilizing advanced AI to provide context-aware, personalized responses. It retrieves information from chat history and documents using a Retrieval-Augmented Generation (RAG) model, enhancing search efficiency and automating tasks with robust privacy protections.",
-        "image": "/projects/project_images/marubot.jpg",
+        "name": "AI License Plate Detection",
+        "description": "Implemented an automated license plate recognition system for Indian vehicles using a computer vision pipeline. The model captures images/video frames, detects the plate region via Haar cascade classifiers, applies preprocessing (grayscale conversion, thresholding, noise removal), and segments individual characters. A Convolutional Neural Network (Keras/TensorFlow) is trained to classify characters into alphanumeric labels. Outputs are compiled into a complete plate number string. Designed for integration into embedded systems like Raspberry Pi for traffic monitoring, toll automation, and parking management.",
+        "image": "/projects/project_images/licenseplate.png",
         "techstack": [
           "python",
-          "gemini",
-          "llm",
-          "VectorDB",
-          "react"
+          "opencv",
+          "keras",
+          "tensorflow",
+          "jupyter"
         ],
         "github": "",
-        "url": "https://devpost.com/software/marubot"
+        "url": ""
       },
       {
-        "name": "Meet - Quicko",
-        "description": "MEET is an online tax advisory platform where customers can come and book meetings with Tax experts to solve their income tax related problems. This was developed during my time at Quicko using Flutter, node.js and aws.",
-        "image": "/projects/project_images/meet.png",
+        "name": "Boston Airbnb Data Storage & Visualization",
+        "description": "Developed a data engineering pipeline to analyze Boston Airbnb listings. The process includes dataset ingestion, preprocessing with Pandas, and structured storage in PostgreSQL for efficient querying. Data is then visualized in Tableau, incorporating geospatial mapping to analyze neighborhood trends, pricing distribution, host activity, and availability patterns. Optimized database schema for faster aggregation queries. The final dashboard provides actionable insights for property investors and urban planners, enabling data-driven decision-making.",
+        "image": "/projects/project_images/boston.png",
         "techstack": [
-          "flutter",
-          "AWS",
-          "node.js",
-          "typescript",
-          "javascript"
+          "python",
+          "pandas",
+          "postgresql",
+          "tableau",
+          "jupyter"
         ],
         "github": "",
-        "url": "https://quicko.com/income-tax/meet"
+        "url": ""
       },
       {
-        "name": "Tax filing on Mobile - Quicko",
-        "description": "This is a mobile webapp for filing and paying income taxes in India. This was built by me while at Quicko using Flutter on the frontend and node.js and Java on the backend",
-        "image": "/projects/project_images/tax.png",
+        "name": "Financial Market Stock Analysis",
+        "description": "Developed a stock price prediction pipeline using historical financial time-series data from Yahoo Finance. Implemented over 90 technical indicators, followed by feature selection via a custom LASSO regression model to remove low-impact predictors. Integrated the optimized features into an LSTM (Long Short-Term Memory) neural network to capture temporal dependencies and improve forecast accuracy. This two-stage approach combines interpretability from LASSO with the sequential learning capabilities of deep learning models, enabling robust and explainable predictions.",
+        "image": "/projects/project_images/stocks.jpg",
         "techstack": [
-          "Node.js",
-          "flutter",
-          "AWS",
-          "Java",
-          "DynamoDb"
+          "python",
+          "pandas",
+          "numpy",
+          "scikit-learn",
+          "tensorflow",
+          "keras",
+          "matplotlib",
+          "jupyter"
         ],
         "github": "",
-        "url": "https://quicko.com/income-tax"
-      },
-      {
-        "name": "Clique - Quicko",
-        "description": "Clique is the affiliate program for Quicko where users can manage their conversions, transactions and settlement reports of the people they have referred",
-        "image": "/projects/project_images/clique.png",
-        "techstack": [
-          "Angular",
-          "HTML",
-          "javascript",
-          "java"
-        ],
-        "github": "",
-        "url": "https://clique.quicko.com/"
-      },
-      {
-        "name": "Kahaniyan",
-        "description": "Kahaniyan is an online bookstore which was made as a recurrent project exercise in CS5244 Web Technologies at VT. The bookstore was designed using Figma and coded out in React and Java",
-        "image": "/projects/project_images/kahaniyan.png",
-        "techstack": [
-          "React",
-          "Java",
-          "MySQL"
-        ],
-        "github": "https://github.com/prem-banker/bookstore",
-        "url": "https://github.com/prem-banker/bookstore"
+        "url": ""
       },
       {
         "name": "Soccer Events Analytics",
@@ -148,18 +97,8 @@
         "techstack": [
           "python"
         ],
-        "github": "https://github.com/prem-banker/football-visualization",
-        "url": "https://github.com/prem-banker/football-visualization"
-      },
-      {
-        "name": "Voice-Guided Identity Verification",
-        "description": "This project develops a cost-effective voice recognition solution for identity verification, targeting virtual settings like online education and meetings. It uses audio data converted into log mel spectrograms and classifies them with a Convolutional Neural Network (CNN) for reliable and secure identification and attendance tracking.",
-        "image": "/projects/project_images/voice.webp",
-        "techstack": [
-          "python"
-        ],
-        "github": "https://github.com/prem-banker",
-        "url": "https://github.com/prem-banker"
+        "github": "",
+        "url": ""
       },
       {
         "name": "Instagram Bot Comment detector",
@@ -168,30 +107,8 @@
         "techstack": [
           "python"
         ],
-        "github": "https://github.com/prem-banker",
-        "url": "https://github.com/prem-banker"
-      },
-      {
-        "name": "Visual Occupancy Detection System",
-        "description": "VODS for smart parking lot management differentiates between empty and occupied parking spaces. Utilizing a CNN model trained on over 120k images, it identifies available spots for drivers. As traffic congestion increases, this low-cost system offers significant benefits in time savings and pollution reduction.",
-        "image": "/projects/project_images/vods.webp",
-        "techstack": [
-          "python"
-        ],
-        "github": "https://github.com/prem-banker",
-        "url": "https://github.com/prem-banker"
-      },
-      {
-        "name": "Balley",
-        "description": "Balley is a 2D hypercasual infinite-runner type game made using Unity. The goal is to stay alive for as long as possible, gain points by bouncing off the raised platforms and to collect coins and power-ups while you're at it. The game gets progressively difficult as the points increase & also features an in-game store from where players can buy skins and powerups.",
-        "image": "/projects/project_images/balley.webp",
-        "techstack": [
-          "C",
-          "C#",
-          "Unity"
-        ],
         "github": "",
-        "url": "https://play.google.com/store/apps/details?id=com.Teknack.Balley"
+        "url": ""
       }
     ],
     "socials": [
