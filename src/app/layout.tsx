@@ -9,22 +9,23 @@ import "./globals.css";
 const firacode = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Prem Banker",
-  description: "Prem Banker's Developer Portfolio",
-  keywords: "Portfolio, Developer, Software Engineer, Full Stack, Prem Banker",
+  title: "Parthiv Gandhi",
+  description: "Parthiv Gandhi's Developer Portfolio",
+  keywords:
+    "Portfolio, Developer, Software Engineer, Full Stack, Parthiv Gandhi",
   authors: {
-    name: "Prem Banker",
-    url: "https://www.prembanker.com",
+    name: "Parthiv Gandhi",
+    url: "https://parthiv-portfolio-nine.vercel.app/",
   },
 
   openGraph: {
-    title: "Prem Banker",
-    description: "Prem Banker's Developer Portfolio",
-    url: "https://www.prembanker.com",
+    title: "Parthiv Gandhi",
+    description: "Parthiv Gandhi's Developer Portfolio",
+    url: "https://parthiv-portfolio-nine.vercel.app/",
     type: "website",
     images: [
       {
-        url: "https://www.prembanker.com/images/og-image.png",
+        url: "https://parthiv-portfolio-nine.vercel.app/images/og-image.png",
         width: 800,
         height: 600,
         alt: "Pro-folio Preview",
@@ -33,9 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Prem Banker",
-    description: "Prem Banker's Developer Portfolio",
-    images: ["https://www.prembanker.com/images/og-image.png"],
+    title: "Parthiv Gandhi",
+    description: "Parthiv Gandhi's Developer Portfolio",
+    images: ["https://parthiv-portfolio-nine.vercel.app/images/og-image.png"],
   },
 };
 export default function RootLayout({
@@ -49,31 +50,37 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
-          content="Portfolio, Developer, Software Engineer, Full Stack, Prem Banker"
+          content="Portfolio, Developer, Software Engineer, Full Stack, Parthiv Gandhi"
         />
-        <meta name="author" content="Prem Banker" />
-        <meta property="og:title" content="Prem Banker" />
+        <meta name="author" content="Parthiv Gandhi" />
+        <meta property="og:title" content="Parthiv Gandhi" />
         <meta
           property="og:description"
-          content="Prem Banker's Developer Portfolio"
+          content="Parthiv Gandhi's Developer Portfolio"
         />
-        <meta property="og:url" content="https://www.prembanker.com" />
+        <meta
+          property="og:url"
+          content="https://parthiv-portfolio-nine.vercel.app/"
+        />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.prembanker.com/images/og-image.png"
+          content="https://parthiv-portfolio-nine.vercel.app/images/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pro-folio" />
         <meta
           name="twitter:description"
-          content="Prem Banker's Developer Portfolio"
+          content="Parthiv Gandhi's Developer Portfolio"
         />
         <meta
           name="twitter:image"
-          content="https://www.prembanker.com/images/og-image.png"
+          content="https://parthiv-portfolio-nine.vercel.app/images/og-image.png"
         />
-        <link rel="canonical" href="https://www.prembanker.com" />
+        <link
+          rel="canonical"
+          href="https://parthiv-portfolio-nine.vercel.app/"
+        />
         <link rel="icon" href="/icon.svg" />
       </head>
 
